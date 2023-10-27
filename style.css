@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d70ff;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    border: 1px solid #4a79d7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 60px ;
+}
+
+h1 {
+    border: 30px solid #ffffff;
+    background-color: #ffffff;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+h5{
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+label.Name{
+    font-weight: bold;
+}
+label.abcd{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+label.ABCD{
+    margin-right: 300px;
+    margin-left: 320px;
+}
+label.Question{
+    text-align: center;
+}
+label.TRUE_FALSE{
+    margin-right: 300px;
+    margin-left: 350px;
+}
+label.centered{
+    text-align: center;
+}
+label {
+    display: block;
+}
+input[type="text"] {
+    background-color: #ffffff;
+    margin: 5px 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 40px;
+    border: 5px solid #ffffff;
+    cursor: pointer;
+
+}
