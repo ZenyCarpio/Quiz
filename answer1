@@ -1,0 +1,135 @@
+<link rel="stylesheet" type="text/css" href="styles1.css">
+<body>
+<div class="container">
+<?php
+if(isset($_POST['submit'])){
+    $score = 0;
+
+
+    $q1 = $_POST['q1'];
+    $q2 = $_POST['q2'];
+    $q3 = $_POST['q3'];
+    $q4 = $_POST['q4'];
+    $q5 = $_POST['q5'];
+    $q6 = $_POST['q6'];
+    $q7 = $_POST['q7'];
+    $q8 = $_POST['q8'];
+    $q9 = $_POST['q9'];
+    $q10 = $_POST['q10'];
+    $q11 = $_POST['q11'];
+    $q12 = $_POST['q12'];
+    $q13 = $_POST['q13'];
+    $q14 = $_POST['q14'];
+    $q15 = $_POST['q15'];
+    $q16 = $_POST['q16'];
+    $q17 = $_POST['q17'];
+    $q18 = $_POST['q18'];
+    $q19 = $_POST['q19'];
+    $q20 = $_POST['q20'];
+    $correctAnswers21 = ["Amphere,amphere"];
+    $correctAnswers22 = ["H2O,h2o"];
+    $correctAnswers23 = ["AU,au"];
+    $correctAnswers24 = ["Evaporation,evaporation"];
+    $correctAnswers25 = ["Renewable energy,renewable energy"];
+    $userAnswers21 = $_POST['q21'];
+    $userAnswers22 = $_POST['q22'];
+    $userAnswers23 = $_POST['q23'];
+    $userAnswers24 = $_POST['q24'];
+    $userAnswers25 = $_POST['q25'];
+
+
+    if($q1 == "C"){
+        $score++;
+    }
+    if($q2 == "D"){
+        $score++;
+    }
+    if($q3 == "B"){
+        $score++;
+    }
+    if($q4 == "D"){
+        $score++;
+    }
+    if($q5 == "B"){
+        $score++;
+    }
+    if($q6 == "A"){
+        $score++;
+    }
+    if($q7 == "B"){
+        $score++;
+    }
+    if($q8 == "A"){
+        $score++;
+    }
+    if($q9 == "C"){
+        $score++;
+    }
+    if($q10 == "D"){
+        $score++;
+    }
+    if($q11 == "TRUE"){
+        $score++;
+    }
+    if($q12 == "TRUE"){
+        $score++;
+    }
+    if($q13 == "TRUE"){
+        $score++;
+    }
+    if($q14 == "TRUE"){
+        $score++;
+    }
+    if($q15 == "TRUE"){
+        $score++;
+    }
+    if($q16 == "FALSE"){
+        $score++;
+    }
+    if($q17 == "FALSE"){
+        $score++;
+    }
+    if($q18 == "FALSE"){
+        $score++;
+    }
+    if($q19 == "FALSE"){
+        $score++;
+    }
+    if($q20 == "FALSE"){
+        $score++;
+    }
+  
+    if ($userAnswers21 == $correctAnswers21) {
+        $score++;
+    }
+    if ($userAnswers22 == $correctAnswers22) {
+        $score++;
+    }
+    if ($userAnswers23 == $correctAnswers23) {
+        $score++;
+    }
+    if ($userAnswers24 == $correctAnswers24) {
+        $score++;
+    }
+    if ($userAnswers25 == $correctAnswers25) {
+        $score++;
+    }
+
+    echo "Your total score is: $score \n ";
+    if($score == 25){        
+    echo nl2br ("\n Congratulations you got a perfect score!!");
+    }
+    if($score <= 24){        
+        echo nl2br ("\n Keep it up!!");
+    }
+    if($score <= 15){        
+    echo nl2br("\n Better luck next time! \n \n");
+    }
+}
+
+
+?>
+<br>
+
+<a href="quiz1.php"><input type="submit" value="Try Again?"> </a>
+</body>
