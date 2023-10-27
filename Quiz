@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+
+<h1>Q U I Z</h1>
+<div class="container">
+<form action="answers1.php" method="post">
+        <h5>YOUR NAME:</h5>
+        <label
+            class = "Name">First name
+            <input type="text" name="first">
+            Middle name
+            <input type="text" name="middle">
+            Last name
+            <input type="text" name="last">
+            Date
+            <input type="date" name="" id="">
+        </label>
+
+    <h2>Test I: Multiple-Choice</h2>
+        <label    
+            class = "ABCD">
+            1.) What is the largest planet in our solar system?
+            <br>
+
+            <label   
+            class = "abcd">
+            <input type="radio" name="q1" value="A" id="" required>
+            A.) Saturn
+            <input type="radio" name="q1" value="B" id="" required>
+            B.) Sun
+            <input type="radio" name="q1" value="C" id="" required>
+            C.) Jupiter
+            <input type="radio" name="q1" value="D" id="" required>
+            D.) Earth
+            </label>
+            </label>
+        <br>
+
+        <label    
+            class = "ABCD">
+            2.) What is the last planet in our solar system?
+        <br>
+        <label   
+            class = "abcd">
+            <input type="radio" name="q2" value="A" id="" required>
+            A.) Mercury
+            <input type="radio" name="q2" value="B" id="" required>
+            B.) Uranus
+            <br>
+            <input type="radio" name="q2" value="C" id="" required>
+            C.) Mars
+            <input type="radio" name="q2" value="D" id="" required>
+            D.) Neptune
+        </label>
+        </label>
+        <br>
+
+        <label    
+            class = "ABCD">
+            3.) What is the closest planet in the sun?
+        <br>
+        <label   
+            class = "abcd">
+            <input type="radio" name="q3" value="A" id="" required>
+            A) Venus
+            <input type="radio" name="q3" value="B" id="" required>
+            B) Mercury
+            <input type="radio" name="q3" value="C" id="" required>
+            C) Mars
+            <input type="radio" name="q3" value="D" id="" required>
+            D) Jupiter
+        </label>
+        </label>
+        <br>
+
+        <label
+            class = "ABCD">
+        4.) A planet also known as red planet.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q4" value="A" id="" required>
+            A) Earth
+            <input type="radio" name="q4" value="B" id="" required>
+            B) Moon
+            <input type="radio" name="q4" value="C" id="" required>
+            C) Jupiter
+            <input type="radio" name="q4" value="D" id="" required>
+            D) Mars
+            </label>
+            </label>
+        <br>
+
+        <label
+            class = "ABCD">
+            5.) The hottest planet in our solar system.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q5" value="A" id="" required>
+            A) Pluto
+            <input type="radio" name="q5" value="B" id="" required>
+            B) Venus
+            <input type="radio" name="q5" value="C" id="" required>
+            C) Mercury
+            <input type="radio" name="q5" value="D" id="" required>
+            D) Uranus
+            </label>
+            </label>
+        <br>
+
+        <label   
+            class = "ABCD">
+            6.) Is a barrel spiral galaxy around 13.6 billion years old
+            <br>
+              with large pivoting arms stretching out across the cosmos.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q6" value="A" id="" required>
+            A) Milky Way Galaxy
+            <input type="radio" name="q6" value="B" id="" required>
+            B) Andromeda Galaxy
+            <br>
+            <input type="radio" name="q6" value="C" id="" required>
+            C) Whirlpool Galaxy
+            <input type="radio" name="q6" value="D" id="" required>
+            D) Pinwheel Galaxy
+            </label>
+            </label>
+        <br>
+
+        <label    
+            class = "ABCD">
+            7.) A system of stars, stellar remnants, interstellar gas,
+            <br>
+              dust, and dark matter bound together by gravity.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q7" value="A" id="" required>
+            A) Nebula
+            <input type="radio" name="q7" value="B" id="" required>
+            B) Galaxy
+            <input type="radio" name="q7" value="C" id="" required>
+            C) Stars
+            <input type="radio" name="q7" value="D" id="" required>
+            D) Planets
+            </label>
+            </label>
+        <br>
+
+        <label    
+            class = "ABCD">
+            8.) A giant cloud of dust and gas in space.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q8" value="A" id="" required>
+            A) Nebula
+            <input type="radio" name="q8" value="B" id="" required>
+            B) Galaxy
+            <input type="radio" name="q8" value="C" id="" required>
+            C) Stars
+            <input type="radio" name="q8" value="D" id="" required>
+            D) Planets
+            </label>
+            </label>
+        <br>
+
+        <label    
+            class = "ABCD">
+            9.) An astronomical object comprising a luminous spheriod of plasma
+            held together by self-gravity?
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q9" value="A" id="" required>
+            A) Nebula
+            <input type="radio" name="q9" value="B" id="" required>
+            B) Galaxy
+            <input type="radio" name="q9" value="C" id="" required>
+            C) Stars
+            <input type="radio" name="q9" value="D" id="" required>
+            D) Planets
+            </label>
+            </label>
+        <br>
+        <label    
+            class = "ABCD">
+            10.) Is a large, rounded astronomical body that orbits a star.
+            <br>
+            <label   
+            class = "abcd">
+            <input type="radio" name="q10" value="A" id="" required>
+            A) Nebula
+            <input type="radio" name="q10" value="B" id="" required>
+            B) Galaxy
+            <input type="radio" name="q10" value="C" id="" required>
+            C) Stars
+            <input type="radio" name="q10" value="D" id="" required>
+            D) Planets
+            </label>
+            </label>
+    <br>
+
+    <h3>Test II: TRUE or FALSE</h3>    
+        <br>    
+
+        <label
+            class = "Question">11.) The Earth revolves around the Sun.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q11" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q11" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">12.) Water boils at 100 degrees Celsius at sea level.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q12" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q12" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+                
+            <label
+            class = "Question">13.) DNA is composed of four nucleotide bases: adenine, thymine, cytosine, and guanine.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q13" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q13" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">14.) Newton's third law of motion states that for every action, there is an equal and opposite reaction
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q14" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q14" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">15.) The chemical symbol for gold is Au.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q15" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q15" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">16.) The Moon generates its own light.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q16" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q16" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">17.) All matter on Earth is composed of three fundamental elements
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q17" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q17" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">18.) Water is a mixture of two elements: hydrogen and oxygen
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q18" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q18" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">19.) The North Pole is located on a landmass.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q19" value="TRUE" id="" required>
+            TRUE
+
+            <br>
+
+            <input type="radio" name="q19" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+            <label
+            class = "Question">20.) Cold temperatures make objects lose heat faster.
+            </label>
+            <br>
+
+            <label
+            class = "TRUE_FALSE">
+            <input type="radio" name="q20" value="TRUE" id="" required>
+            TRUE
+            <br>
+
+            <input type="radio" name="q20" value="FALSE" id="" required>
+            FALSE
+            </label>
+            <br> 
+
+    <h4>Test III: Enumeration</h4>
+    
+        <label
+        class = "centered">21.) Is the unit for measuring electric current
+        <br>
+            <input type="text" name="q21[]" id="" required>
+            </label>
+        <br>
+
+        <label
+        class = "centered">Question 22: A chemical symbol for water.
+            <br>
+            <input type="text" name="q22[]" id="" required>
+        </label>     
+        <br>
+
+        <label
+        class = "centered">23.) A chemical sysbol for gold.
+            <br>            
+            <input type="text" name="q23[]" id="" required>
+        </label>
+        <br>
+
+        <label
+       class = "centered"> Question 24.) is the process of converting a liquid into a gas.
+            <br>
+            <input type="text" name="q24[]" id="" required>
+        </label>
+        <br>
+
+        <label
+         class = "centered"> 25.) Is energy derived from natural sources that are replenished at a higher rate than they are consumed.
+            <br>
+            <input type="text" name="q25[]" id="" required>
+        </label>   
+        <br> 
+    
+    <label    
+    class = "centered">
+    <input type="submit" name="submit" value="Submit">
+    </label>
+
+</div>
+</form>
+</body>
+</html>
